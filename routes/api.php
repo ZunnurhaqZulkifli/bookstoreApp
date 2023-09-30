@@ -19,3 +19,6 @@ Route::middleware('auth:api')->prefix('v1')->group(function() {
         return $request->user();
     });
 });
+
+// Book belongs to an author
+// User that created books
